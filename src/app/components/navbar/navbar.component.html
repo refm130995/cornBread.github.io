@@ -1,0 +1,12 @@
+<section class="smart-scroll" style="height: 30em">
+  <div class="header h-auto grid grid-cols-3 gap-4 content-center">
+    <a class="logo">
+      <img src="./../assets/logo.svg" alt="" />
+    </a>
+    <div class="flex items-center col-span-2">
+      <a class="grow menu-item" *ngFor="let item of menuItems">{{
+        item.text
+      }}</a>
+    </div>
+  </div>
+</section>
