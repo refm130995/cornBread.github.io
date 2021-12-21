@@ -1,2 +1,2 @@
-# cornbread.githun.io
+# cornbread.github.io
 CornBread Page
